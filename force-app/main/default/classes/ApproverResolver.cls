@@ -8,7 +8,7 @@
  *
  * Bulk-safe: all lookup sources are cached statically, so 200 calls
  * in one transaction cost at most a handful of queries.
- * Update code test git
+ * Update code test
  */
 public without sharing class ApproverResolver {
 
