@@ -1,4 +1,4 @@
-/**
+/** 
  * ApproverResolver.cls
  * Translates the approver defined in Dispute_Approval_Rule__mdt
  * (plain text: username / queue name / role name / "Manager")
@@ -8,6 +8,7 @@
  *
  * Bulk-safe: all lookup sources are cached statically, so 200 calls
  * in one transaction cost at most a handful of queries.
+ * Update code test git
  */
 public without sharing class ApproverResolver {
 
