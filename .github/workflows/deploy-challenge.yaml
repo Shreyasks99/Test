@@ -9,11 +9,11 @@ on:
 jobs:
   Deploy-to-Challenge-environment:
       runs-on: ubuntu-latest
-      environment: sffnoobs
+      environment: challenge
       steps:
           - uses: actions/setup-node@v3
             with:
-              node-version: '18'
+              node-version: '22'
           - name: 'Checkout source code'
             uses: actions/checkout@v3
             with:
